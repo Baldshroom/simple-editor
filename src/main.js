@@ -13,7 +13,7 @@ loadButton.addEventListener("click", () => {
 });
 
 checkButton.addEventListener("click", () => {
-	const textLenght = editor.value.lenght;
+	const textLenght = editor.value.length;
 	editor.classList.remove("text-gray-900", "dark:text-white");
 	if (textLenght > 10) {
 		editor.classList.add("text-green-600");
