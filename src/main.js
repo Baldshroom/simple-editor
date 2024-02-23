@@ -18,13 +18,9 @@ checkButton.addEventListener("click", () => {
 	if (textLenght > 10) {
 		editor.classList.add("text-green-600");
 		editor.classList.remove("text-red-600");
-		console.log("Nio");
-		console.log(textLenght);
 	} else {
 		editor.classList.add("text-red-600");
 		editor.classList.remove("text-green-600");
-		console.log("Nio nie");
-		console.log(textLenght);
 	}
 });
 // load.addEventListener("click", () => {
